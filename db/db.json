@@ -1,0 +1,47 @@
+{
+    "posts": [
+      {
+        "postId": 1,
+        "userId": 101,
+        "username": "john_doe",
+        "profileImage": "http://localhost:8000/images.jpeg",
+        "imageUrl": "http://localhost:8000/hello.jpeg",
+        "caption": "Enjoying the sunset! 🌅 #nature #peace",
+        "likes": 150,
+        "comments": [
+          {
+            "commentId": 1,
+            "userId": 102,
+            "username": "jane_smith",
+            "text": "Wow! That looks amazing! 😍"
+          },
+          {
+            "commentId": 2,
+            "userId": 103,
+            "username": "alex_rock",
+            "text": "Beautiful view! 🌄"
+          }
+        ],
+        "createdAt": "2025-02-27T10:00:00Z"
+      },
+      {
+        "postId": 2,
+        "userId": 104,
+        "username": "mike_adams",
+        "profileImage": "http://localhost:8000/1-intro-photo-final.jpg",
+        "imageUrl": "http://localhost:8000/il_fullxfull.2549439415_i07d.webp",
+        "caption": "Coffee and coding ☕💻 #programming",
+        "likes": 200,
+        "comments": [
+          {
+            "commentId": 3,
+            "userId": 105,
+            "username": "coder_girl",
+            "text": "Best combo ever! 🔥"
+          }
+        ],
+        "createdAt": "2025-02-27T12:30:00Z"
+      }
+    ]
+  }
+  

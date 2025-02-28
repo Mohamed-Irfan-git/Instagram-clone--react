@@ -10,7 +10,10 @@ function Posts() {
     }, [])
     console.log(posts)
   return (
+    <>
+    <h1>Feed</h1>
     <div className='d-flex justify-content-center'>
+      
         {posts.length > 0? (
           <div>
             {posts.map((post) => (
@@ -19,18 +22,18 @@ function Posts() {
                   <img className="dp rounded-circle" src={post.profileImage} alt="No profile" />
                   <h5>{post.username}</h5>
                 </div>
-                <img className='image' src={post.imageUrl} alt="no-photo" />
+                <img className='image img-fluid rounded-3 my-4' src={post.imageUrl} alt="no-photo" />
                 <div>
-                <i className="bi bi-heart"></i>
-                <i className="bi bi-chat"></i>
-                <i className="bi bi-share"></i>
-                <i className="bi bi-send"></i>
+                <i className="bi bi-heart text-dark fs-4"></i>
+                <i className="bi bi-chat text dark fs-4"></i>
+                <i className="bi bi-share text-dark fs-4"></i>
+                <i className="bi bi-send text-dark fs-4"></i>
                 </div>
                 <div>
                   <b>{post.likes} Likes</b>
 
                 </div>
-                <p>
+                <p className='mb-5'>
                   {post.caption}
                 </p>
 
@@ -47,6 +50,7 @@ function Posts() {
         )
       }
     </div>
+    </>
   )
 }
 

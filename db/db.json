@@ -42,6 +42,15 @@
         ],
         "createdAt": "2025-02-27T12:30:00Z"
       }
-    ]
+    ],
+    "profile" : {
+      "userId": 101,
+      "username": "john_doe",
+      "profileImage": "http://localhost:8000/images.jpeg",
+      "bio": "Traveler | Nature Lover | Programmer",
+      "followers": 450,
+      "following": 300
+
+    }
   }
   

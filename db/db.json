@@ -51,6 +51,19 @@
       "followers": 450,
       "following": 300
 
-    }
+    },
+    "suggestions" : [
+     { "userId": 1,
+      "username": "mike_adams",
+      "profileImage": "http://localhost:8000/1-intro-photo-final.jpg"
+
+     },
+     {
+      "userId": 2,
+      "username": "john_doe",
+      "profileImage": "http://localhost:8000/images.jpeg"
+     }
+    ]
+    
   }
   
